@@ -1,0 +1,105 @@
+/* Estilo para o corpo do site */
+#site-content {
+    font-family: Sans-serif; /* Definir uma fonte padrão para o texto */
+    margin: 0; /* Remover margens padrão */
+    padding: 0; /* Remover preenchimento padrão */
+  }
+  
+  #corpo {
+    background: linear-gradient(
+      to bottom,
+      #8a2be2,
+      #e6e6fa
+    ); /* Cor de fundo com degradê de cima para baixo */
+    margin: 0; /* Remover margens padrão */
+    height: 100%; /* Garantir que o degradê cubra toda a altura da página */
+    padding-top: 500px; /* Adicionar espaço para a barra de navegação */
+  }
+  
+  /* Div com imagem de fundo */
+  #imagem-de-fundo {
+    background-image: url("https://s1.1zoom.me/big3/996/413345-svetik.jpg"); /* URL da imagem */
+    background-size: cover; /* Cobrir toda a área */
+    background-position: center; /* Centralizar a imagem */
+    width: 100%; /* Largura da div */
+    height: 500px;
+    position: absolute; /* Posicionamento absoluto */
+    top: 75px; /* Distância do topo, igual à altura da barra de navegação */
+    left: 0; /* Alinhar à esquerda */
+    background-repeat: no-repeat; /* Evitar a repetição da imagem */
+    background-attachment: fixed; /* Fixar a imagem de fundo */
+  }
+  
+  /* Estilos para a barra de navegação */
+  .navbar {
+    overflow: hidden;
+    color: #fff; /* Definir a cor do texto para branco */
+    font-size: 20px;
+    background-color: #4b0082; /* Cor de fundo da barra de navegação com transparência */
+    position: fixed; /* Fixar a barra no topo da página */
+    width: 100%;
+  }
+  
+  /* Estilo para o ícone de três traços com cor de destaque */
+  .navbar a:first-child i.highlight {
+    color: white; /* Cor de destaque */
+  }
+  
+  /* Estilos para os links da barra de navegação */
+  .navbar a {
+    float: left; /* Alinhar os itens à esquerda */
+    display: block;
+    color: white; /* Cor do texto dos links */
+    text-align: center;
+    padding: 14px 20px; /* Espaçamento interno dos links */
+    text-decoration: none; /* Remover sublinhado padrão dos links */
+  }
+  
+  /* Estilo hover para os links */
+  .navbar a:hover {
+    background-color: #e6e6fa; /* Cor de fundo quando o mouse passa sobre o link */
+    color: #1c1c1c; /* Cor do texto quando o mouse passa sobre o link */
+    border-radius: 10px;
+  }
+  
+  .diario-parte1,
+  .diario-parte2 {
+    background-color: white;
+    font-size: 16px;
+    color: #4b0082;
+    margin: auto auto;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border: white; /*cria a borda em torno daquela div/class */
+    margin-bottom: 30px; /* espaço ate a proxima div/class */
+    margin-top: 20px;
+    border-radius: 20px; /*borda com curvatura*/
+    font-family: Sans-serif; /* Definir uma fonte padrão para o texto */
+    padding-top: 15px; /* Margem interna de 10 pixels no topo da div */
+    padding-right: 20px; /* Margem interna de 20 pixels à direita da div */
+    padding-bottom: 5px; /* Margem interna de 10 pixels na parte inferior da div */
+    padding-left: 20px; /* Margem interna de 20 pixels à esquerda da div */
+  }
+  
+  #novoregistro,
+  #registroanterior {
+    background-color: white;
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+  }
+  
+  #registroanterior :hover {
+    background-color: #e6e6fa; /* Cor de fundo quando o mouse passa sobre o link */
+    color: #4b0082; /* Cor do texto quando o mouse passa sobre o link */
+    border-radius: 10px;
+  }
+  
+  #novoregistro :hover {
+    background-color: #e6e6fa; /* Cor de fundo quando o mouse passa sobre o link */
+    color: #4b0082; /* Cor do texto quando o mouse passa sobre o link */
+    border-radius: 10px;
+  }
+  
+  
